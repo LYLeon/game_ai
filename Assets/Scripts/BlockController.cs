@@ -18,7 +18,7 @@ public class BlockController : MonoBehaviour {
 
     private int typeSelected = BlOCK_NONE;
     private GameObject selectedBlock;
-    private GameObject selectedBlockPlaceHolder;
+    private bool isLegalPlacement;
 
     private List<GameObject> blocks;
 	// Use this for initialization
@@ -51,37 +51,34 @@ public class BlockController : MonoBehaviour {
                 //TODO use object pooling
                 Destroy(selectedBlock);
                 selectedBlock = null;
-                Destroy(selectedBlockPlaceHolder);
-                selectedBlockPlaceHolder = null;
             }
-            selectedBlock = InstantiateBlock(newTypeSelected);
+            selectedBlock = InstantiateBlock(PlaceHolderType(newTypeSelected));
             typeSelected = newTypeSelected;
         }
 
         if (selectedBlock != null && selectedBlock.activeSelf) {
-            selectedBlock.transform.position = GetMousePosition();
-            RaycastHit2D hit = Physics2D.Raycast(selectedBlock.transform.position, Vector2.down, 3, 1<<LayerMask.NameToLayer("Ground"));
+            RaycastHit2D hit = Physics2D.Raycast(GetMousePosition(), Vector2.down, 3, 1<<LayerMask.NameToLayer("Ground"));
             if (hit.collider != null)
             {
-                if (selectedBlockPlaceHolder == null) {
-                    selectedBlockPlaceHolder = InstantiateBlock(PlaceHolderType(newTypeSelected));
-                }
-                selectedBlockPlaceHolder.transform.position = new Vector2(hit.point.x, hit.point.y + selectedBlockPlaceHolder.GetComponent<Renderer>().bounds.size.y / 2);
+                Debug.DrawLine(GetMousePosition(), hit.point);
+                isLegalPlacement = true;
+                selectedBlock.transform.position = new Vector2(hit.point.x, hit.point.y + selectedBlock.GetComponent<Renderer>().bounds.size.y / 2);
             }
-            else if (selectedBlockPlaceHolder != null) {
-                Destroy(selectedBlockPlaceHolder);
-                selectedBlockPlaceHolder = null;
+            else {
+                isLegalPlacement = false;
+                selectedBlock.transform.position = GetMousePosition();
             }
         }
     }
 
     private void PlaceBlock(int blockType) {
-        if (selectedBlockPlaceHolder != null) {
+        if (isLegalPlacement) {
             GameObject block = InstantiateBlock(blockType);
             if (block != null) {
                 Rigidbody2D rigidbody = block.AddComponent<Rigidbody2D>();
                 rigidbody.bodyType = RigidbodyType2D.Kinematic;
-                block.transform.position = selectedBlockPlaceHolder.transform.position;
+                Log("Layer: "+LayerMask.LayerToName(block.layer));
+                block.transform.position = selectedBlock.transform.position;
                 blocks.Add(block);
             }
         }
@@ -122,5 +119,7 @@ public class BlockController : MonoBehaviour {
         return Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
 
-
+    private void Log(string msg) {
+        Debug.Log(msg);
+    }
 }
