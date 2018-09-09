@@ -57,16 +57,37 @@ public class BlockController : MonoBehaviour {
         }
 
         if (selectedBlock != null && selectedBlock.activeSelf) {
-            RaycastHit2D hit = Physics2D.Raycast(GetMousePosition(), Vector2.down, 3, 1<<LayerMask.NameToLayer("Ground"));
-            if (hit.collider != null)
+            Bounds bounds = selectedBlock.GetComponent<Renderer>().bounds;
+            Vector2 mousePos = GetMousePosition();
+            Vector2 rayRight = new Vector2(mousePos.x + bounds.size.x / 2, mousePos.y);
+            Vector2 rayLeft = new Vector2(mousePos.x - bounds.size.x / 2, mousePos.y);
+            RaycastHit2D hitR = Physics2D.Raycast(rayRight, Vector2.down, 3, 1 << LayerMask.NameToLayer("Ground"));
+            RaycastHit2D hitL = Physics2D.Raycast(rayLeft, Vector2.down, 3, 1 << LayerMask.NameToLayer("Ground"));
+            if (hitR.collider != null || hitL.collider != null)
             {
-                Debug.DrawLine(GetMousePosition(), hit.point);
+                RaycastHit2D hit;
+                if (hitR.collider == null)
+                {
+                    hit = hitL;
+                    Debug.DrawLine(rayLeft, hit.point);
+                }
+                else if (hitL.collider == null)
+                {
+                    hit = hitR;
+                    Debug.DrawLine(rayRight, hit.point);
+                }
+                else {
+                    hit = hitR.point.y > hitL.point.y ? hitR : hitL;
+                    Debug.DrawLine(rayLeft, hitL.point);
+                    Debug.DrawLine(rayRight, hitR.point);
+                }
+
                 isLegalPlacement = true;
-                selectedBlock.transform.position = new Vector2(hit.point.x, hit.point.y + selectedBlock.GetComponent<Renderer>().bounds.size.y / 2);
+                selectedBlock.transform.position = new Vector2(mousePos.x, hit.point.y + bounds.size.y / 2);
             }
             else {
                 isLegalPlacement = false;
-                selectedBlock.transform.position = GetMousePosition();
+                selectedBlock.transform.position = mousePos;
             }
         }
     }
