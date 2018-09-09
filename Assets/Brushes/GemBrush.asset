@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: GemBrush
   m_EditorClassIdentifier: 
   m_Prefabs:
-  - {fileID: 1764816090862790, guid: 75cabef8c622f42229b80fec978c6a10, type: 2}
+  - {fileID: 1421620400997030, guid: ddd0ffe30f61f9f4d967c9bc464bde29, type: 2}
   m_PerlinScale: 0.5
   m_Z: 0

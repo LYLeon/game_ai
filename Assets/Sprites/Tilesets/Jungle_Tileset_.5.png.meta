@@ -1,31 +1,39 @@
 fileFormatVersion: 2
-guid: 9d97930215ce048d6b24d65458ee8972
+guid: d4440953bf04b7e48b010c2115315e9d
 TextureImporter:
   fileIDToRecycleName:
-    21300000: EnvironmentProps_TileSet_0
-    21300002: EnvironmentProps_TileSet_1
-    21300004: EnvironmentProps_TileSet_2
-    21300006: EnvironmentProps_TileSet_3
-    21300008: EnvironmentProps_TileSet_4
-    21300010: EnvironmentProps_TileSet_5
-    21300012: EnvironmentProps_TileSet_6
-    21300014: EnvironmentProps_TileSet_7
-    21300016: EnvironmentProps_TileSet_8
-    21300018: EnvironmentProps_TileSet_9
-    21300020: EnvironmentProps_TileSet_10
-    21300022: EnvironmentProps_TileSet_11
-    21300024: EnvironmentProps_TileSet_12
-    21300026: EnvironmentProps_TileSet_13
-    21300028: EnvironmentProps_TileSet_14
-    21300030: EnvironmentProps_TileSet_15
-    21300032: EnvironmentProps_TileSet_16
-    21300034: EnvironmentProps_TileSet_17
-    21300036: EnvironmentProps_TileSet_18
-    21300038: EnvironmentProps_TileSet_19
-    21300040: EnvironmentProps_TileSet_20
-    21300042: EnvironmentProps_TileSet_21
-    21300044: EnvironmentProps_TileSet_22
-    21300046: EnvironmentProps_TileSet_23
+    21300000: Jungle_Tileset_.5_0
+    21300002: Jungle_Tileset_.5_1
+    21300004: Jungle_Tileset_.5_2
+    21300006: Jungle_Tileset_.5_3
+    21300008: Jungle_Tileset_.5_4
+    21300010: Jungle_Tileset_.5_5
+    21300012: Jungle_Tileset_.5_6
+    21300014: Jungle_Tileset_.5_7
+    21300016: Jungle_Tileset_.5_8
+    21300018: Jungle_Tileset_.5_9
+    21300020: Jungle_Tileset_.5_10
+    21300022: Jungle_Tileset_.5_11
+    21300024: Jungle_Tileset_.5_12
+    21300026: Jungle_Tileset_.5_13
+    21300028: Jungle_Tileset_.5_14
+    21300030: Jungle_Tileset_.5_15
+    21300032: Jungle_Tileset_.5_16
+    21300034: Jungle_Tileset_.5_17
+    21300036: Jungle_Tileset_.5_18
+    21300038: Jungle_Tileset_.5_19
+    21300040: Jungle_Tileset_.5_20
+    21300042: Jungle_Tileset_.5_21
+    21300044: Jungle_Tileset_.5_22
+    21300046: Jungle_Tileset_.5_23
+    21300048: Jungle_Tileset_.5_24
+    21300050: Jungle_Tileset_.5_25
+    21300052: Jungle_Tileset_.5_26
+    21300054: Jungle_Tileset_.5_27
+    21300056: Jungle_Tileset_.5_28
+    21300058: Jungle_Tileset_.5_29
+    21300060: Jungle_Tileset_.5_30
+    21300062: Jungle_Tileset_.5_31
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -55,7 +63,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -69,7 +77,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -104,39 +112,17 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_0
+      name: Jungle_Tileset_.5_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 448
-        width: 52
-        height: 34
+        x: 0
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,19 +130,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bb4fce8651379849ad3c25715728788
+      spriteID: 6a9265c040304494c9fff74fc88a8095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_1
+      name: Jungle_Tileset_.5_1
       rect:
         serializedVersion: 2
-        x: 76
-        y: 448
-        width: 26
-        height: 16
+        x: 128
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,19 +150,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e8b2ee0503c0c1489bf9fc3c64510cf
+      spriteID: 85e86b79d237f2743b76b835101c6e72
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_2
+      name: Jungle_Tileset_.5_2
       rect:
         serializedVersion: 2
-        x: 105
-        y: 448
-        width: 12
-        height: 7
+        x: 256
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,19 +170,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11557ecac17f62547ac06744fa81e5d1
+      spriteID: 9fe0c12c050531444a644ed0ef395c17
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_3
+      name: Jungle_Tileset_.5_3
       rect:
         serializedVersion: 2
-        x: 142
-        y: 384
-        width: 107
-        height: 118
+        x: 384
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,19 +190,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e350fd09b716b7a419a7a412e7648ca8
+      spriteID: 31f37c0567c93a5498143099f56f50ce
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_4
+      name: Jungle_Tileset_.5_4
       rect:
         serializedVersion: 2
-        x: 7
-        y: 384
-        width: 52
-        height: 29
+        x: 512
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,19 +210,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6980ca86dd324042aaed9e09553417b
+      spriteID: f614214b149455d4b991ec69327a92e8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_5
+      name: Jungle_Tileset_.5_5
       rect:
         serializedVersion: 2
-        x: 77
-        y: 384
-        width: 39
-        height: 30
+        x: 640
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,19 +230,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 307244559ea1f824ebf58e40fbcfdf1b
+      spriteID: e8ccb0fbfedcc124e9d1c6aa6f4bd9f5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_6
+      name: Jungle_Tileset_.5_6
       rect:
         serializedVersion: 2
-        x: 7
-        y: 320
-        width: 45
-        height: 27
+        x: 768
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,19 +250,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c816b448331c5c949b9bff3c24bf7817
+      spriteID: c9ec39960b9df254ab469d5ab90edcc0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_7
+      name: Jungle_Tileset_.5_7
       rect:
         serializedVersion: 2
-        x: 72
-        y: 320
-        width: 46
-        height: 19
+        x: 896
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,19 +270,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c746d376614d3a1469b9b9064e0b8733
+      spriteID: eb9a12c42fa2caf4f8a1a67fa414c93a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_8
+      name: Jungle_Tileset_.5_8
       rect:
         serializedVersion: 2
-        x: 135
-        y: 256
-        width: 56
-        height: 117
+        x: 0
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,19 +290,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70cbc88252716f445a3a7948d8ba6138
+      spriteID: 6124a9383afe5ce47ac33af92e3daa32
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_9
+      name: Jungle_Tileset_.5_9
       rect:
         serializedVersion: 2
-        x: 202
-        y: 256
-        width: 114
-        height: 114
+        x: 128
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,19 +310,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d0838d7afc8dda4493f2c6e68489aa2
+      spriteID: 1b5451808286ba94d842a3477cf197be
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_10
+      name: Jungle_Tileset_.5_10
       rect:
         serializedVersion: 2
-        x: 333
-        y: 320
-        width: 26
-        height: 13
+        x: 256
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,19 +330,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5d18bb4e1feada4fb8dfc40b2d6af83
+      spriteID: 59cb6ae14fcf6f24996225c2f64dc390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_11
+      name: Jungle_Tileset_.5_11
       rect:
         serializedVersion: 2
-        x: 322
-        y: 256
-        width: 62
-        height: 20
+        x: 384
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,19 +350,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9259bd4adfa800640a4554c2bab42168
+      spriteID: 04ebea5bac93e4c48a49f3ef5c1d46ec
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_12
+      name: Jungle_Tileset_.5_12
       rect:
         serializedVersion: 2
-        x: 6
-        y: 192
-        width: 8
-        height: 5
+        x: 512
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,19 +370,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f64f0808045d2d499fa24096497a885
+      spriteID: 0eb6347cf0344c54fa917fc1f5879c83
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_13
+      name: Jungle_Tileset_.5_13
       rect:
         serializedVersion: 2
-        x: 30
-        y: 192
-        width: 25
-        height: 4
+        x: 640
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,19 +390,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 570841b920c8186429c3d77ebe089115
+      spriteID: df3a2a779fd27cf4095bf2534db8c892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_14
+      name: Jungle_Tileset_.5_14
       rect:
         serializedVersion: 2
-        x: 68
-        y: 192
-        width: 10
-        height: 9
+        x: 768
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,19 +410,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fe8a594e3f23884a85ed8f635715cb0
+      spriteID: 14faea3fa869f964abf5851c3ad5774f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_15
+      name: Jungle_Tileset_.5_15
       rect:
         serializedVersion: 2
-        x: 112
-        y: 192
-        width: 101
-        height: 4
+        x: 896
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,19 +430,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ee1edf7ed17dba43b4a9069ae4b5a18
+      spriteID: 934244de2f9de6241ad3b4585dda6ae3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_16
+      name: Jungle_Tileset_.5_16
       rect:
         serializedVersion: 2
-        x: 213
-        y: 192
-        width: 8
-        height: 8
+        x: 0
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,19 +450,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c79e614704ca294c87e0425f14b32ac
+      spriteID: cc694832d0ff9c64abbf448d48080b2f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_17
+      name: Jungle_Tileset_.5_17
       rect:
         serializedVersion: 2
-        x: 265
-        y: 192
-        width: 24
-        height: 9
+        x: 128
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -484,19 +470,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a86ed0b34131c324998435be0c642f59
+      spriteID: 430e2d0bfc9897f448e956cd2e79c0ee
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_18
+      name: Jungle_Tileset_.5_18
       rect:
         serializedVersion: 2
-        x: 290
-        y: 192
-        width: 4
-        height: 7
+        x: 256
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,19 +490,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4774ea083ba3e1f4a8028f1be3982dc6
+      spriteID: a114213d58e774e4a9bd624d4e8dc4d4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_19
+      name: Jungle_Tileset_.5_19
       rect:
         serializedVersion: 2
-        x: 295
-        y: 192
-        width: 6
-        height: 5
+        x: 384
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,19 +510,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a3a3fd9465b139408fa7d08c8cab71b
+      spriteID: 5b9ad00ffbd3fb445ab695da9f0c8018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_20
+      name: Jungle_Tileset_.5_20
       rect:
         serializedVersion: 2
-        x: 322
-        y: 192
-        width: 4
-        height: 4
+        x: 512
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,19 +530,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a9946b2eef120b439bf4ad307a30df4
+      spriteID: 7ea788c3bc36e3c44ba72bf3bfe856d7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_21
+      name: Jungle_Tileset_.5_21
       rect:
         serializedVersion: 2
-        x: 327
-        y: 192
-        width: 12
-        height: 8
+        x: 640
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -564,19 +550,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: deda2451e55fb2e46b0260ace5b57053
+      spriteID: 97d4782553e75c7478dcc68650b5d1b2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_22
+      name: Jungle_Tileset_.5_22
       rect:
         serializedVersion: 2
-        x: 350
-        y: 192
-        width: 23
-        height: 5
+        x: 768
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,19 +570,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 675fdaadd6492544e840b887cda5043e
+      spriteID: 6b0e8036569cfec41837192ba1c84ce9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentProps_TileSet_23
+      name: Jungle_Tileset_.5_23
       rect:
         serializedVersion: 2
-        x: 374
-        y: 192
-        width: 9
-        height: 10
+        x: 896
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,7 +590,167 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07300a68430c0344991d3db9b24ff450
+      spriteID: 1a3d5ab2c27d343489892ff29a3235b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_Tileset_.5_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50807bdc6eb6bbc4c98483119ac895ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_Tileset_.5_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04deb12dedef8ad43837b7b6c07f36c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_Tileset_.5_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11feafe341ffd04cab8690e727496b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_Tileset_.5_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f8cf708b96dac4da65cd2104dcd732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_Tileset_.5_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf33af424d20c44cae82a115ce6b922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_Tileset_.5_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41f4c7750e6d8240aa122e9f96f361d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_Tileset_.5_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1ace06d0521b644ad4878e9302037f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jungle_Tileset_.5_31
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877bb6d2887a1974f8f4e8e8c8525ea6
       vertices: []
       indices: 
       edges: []
@@ -612,7 +758,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 198d69abb38e39f4481e18ab62120bee
+    spriteID: ab8dd50598bd42f4ab4974f2c09b4b8a
     vertices: []
     indices: 
     edges: []

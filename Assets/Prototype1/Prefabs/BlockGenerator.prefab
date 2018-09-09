@@ -9,49 +9,48 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1202551018067518}
+  m_RootGameObject: {fileID: 1791211898420040}
   m_IsPrefabAsset: 1
---- !u!1 &1202551018067518
+--- !u!1 &1791211898420040
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4547652835534242}
-  - component: {fileID: 58155303950288528}
+  - component: {fileID: 4104041717715632}
+  - component: {fileID: 114287398410070180}
   m_Layer: 0
-  m_Name: Pathfinding node
+  m_Name: BlockGenerator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4547652835534242
+--- !u!4 &4104041717715632
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1202551018067518}
+  m_GameObject: {fileID: 1791211898420040}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.36365274, y: 1.1822912, z: -0.033100016}
+  m_LocalPosition: {x: 0.25367475, y: 1.4664983, z: 0.2675629}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &58155303950288528
-CircleCollider2D:
+--- !u!114 &114287398410070180
+MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1202551018067518}
+  m_GameObject: {fileID: 1791211898420040}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fff12e8ecb6b764ab45e0b513c41abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HeartBlock: {fileID: 1663952108784044, guid: d0c45859967227e459e6fd292d5e1bed, type: 2}
+  AttackBlock: {fileID: 1995289011362028, guid: 9bf6650d17acbfd45a5f7444329b380a,
+    type: 2}
