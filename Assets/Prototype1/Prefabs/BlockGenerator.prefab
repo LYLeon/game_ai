@@ -51,6 +51,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fff12e8ecb6b764ab45e0b513c41abe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HeartBlock: {fileID: 1663952108784044, guid: d0c45859967227e459e6fd292d5e1bed, type: 2}
+  HeartBlock: {fileID: 1114097710335188, guid: d0c45859967227e459e6fd292d5e1bed, type: 2}
+  HeartBlockPlaceHolder: {fileID: 1609275482137680, guid: 790193ac0d964b54cb3171fa2771e87b,
+    type: 2}
   AttackBlock: {fileID: 1995289011362028, guid: 9bf6650d17acbfd45a5f7444329b380a,
+    type: 2}
+  AttackBlockPlaceHolder: {fileID: 1283886393661338, guid: 0e11199414ab0b74690d43dff4c26e32,
     type: 2}

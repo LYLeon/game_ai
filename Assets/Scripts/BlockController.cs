@@ -98,7 +98,6 @@ public class BlockController : MonoBehaviour {
             if (block != null) {
                 Rigidbody2D rigidbody = block.AddComponent<Rigidbody2D>();
                 rigidbody.bodyType = RigidbodyType2D.Kinematic;
-                Log("Layer: "+LayerMask.LayerToName(block.layer));
                 block.transform.position = selectedBlock.transform.position;
                 blocks.Add(block);
             }
