@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class HeartBlockController : MonoBehaviour, EffectArea.EffectAreaListener
 {
+    public float EnergyGenerationRate = 0.5f;
     private List<AttackBlockController> blockNodes = new List<AttackBlockController>();
 
     // Use this for initialization
     void Start () {
         GetComponentInChildren<EffectArea>().listener = this;
-        InvokeRepeating("GenerateEnergy", 0, 1);
+        InvokeRepeating("GenerateEnergy", 0, EnergyGenerationRate);
 	}
 	
 	// Update is called once per frame

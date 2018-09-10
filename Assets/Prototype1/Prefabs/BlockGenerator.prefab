@@ -54,7 +54,7 @@ MonoBehaviour:
   HeartBlock: {fileID: 1114097710335188, guid: d0c45859967227e459e6fd292d5e1bed, type: 2}
   HeartBlockPlaceHolder: {fileID: 1609275482137680, guid: 790193ac0d964b54cb3171fa2771e87b,
     type: 2}
-  AttackBlock: {fileID: 1995289011362028, guid: 9bf6650d17acbfd45a5f7444329b380a,
+  AttackBlock: {fileID: 1393869721177002, guid: 04e259ceea37e124597e5246084f5d3a,
     type: 2}
   AttackBlockPlaceHolder: {fileID: 1283886393661338, guid: 0e11199414ab0b74690d43dff4c26e32,
     type: 2}

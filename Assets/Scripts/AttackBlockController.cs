@@ -25,7 +25,7 @@ public class AttackBlockController : MonoBehaviour {
     }
 
     private void Attack() {
-        Debug.Log("activate attack block:" + gameObject);
+        GetComponentInChildren<BulletSpawnController>().Fire();
     }
 
     public void AddEnergy(int amount) {
