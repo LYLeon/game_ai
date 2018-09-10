@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 114487975445818390}
   - component: {fileID: 61718197618096998}
   m_Layer: 9
-  m_Name: HeartBlock
+  m_Name: EnergyBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124,6 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e943ffc45ca414f47a5ec3d809a1da88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnergyGenerationRate: 0.5
 --- !u!114 &114663725500956730
 MonoBehaviour:
   m_ObjectHideFlags: 1
